@@ -40,9 +40,9 @@ function toggle() {
 
 <template>
   <div
-      class="relative max-w-full h-16 md:h-32 border-b flex justify-between items-center md:items-end px-4 md:px-32">
+      class="relative max-w-full h-16 md:h-32 border-b flex justify-between items-center md:items-end px-4 md:px-16 lg:px-32">
     <div class="flex items-center gap-x-4">
-      <img class="h-12 md:mb-4" src="/public/logo2.svg" alt="Royal Hollingshead"/>
+      <img class="h-12 md:h-24 md:mb-4" src="/public/logo2.svg" alt="Royal Hollingshead"/>
     </div>
 <!--    <div class="flex items-end gap-x-4">-->
 <!--      <img class="h-24 mb-4" src="/public/logo2.svg" alt="Royal Hollingshead"/>-->
@@ -65,7 +65,7 @@ function toggle() {
          @click="toggle()">
 
         <div
-             class="inner md:hidden absolute top-0 left-full w-[40vw] h-[100vh] bg-white z-50 flex flex-col gap-y-4
+             class="inner md:hidden absolute top-0 left-full w-[45vw] h-[100vh] bg-white z-50 flex flex-col gap-y-4
              transform transition-transform -translate-x-full shadow-xl border-l px-4 py-2"
         >
           <RouterLink v-for="option of navOptions"

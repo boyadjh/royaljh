@@ -1,5 +1,5 @@
 <template>
-  <div class="flex h-32 max-w-full items-center justify-between px-64 bg-stone-800">
+  <div class="flex h-32 w-full items-center justify-between px-8 md:px-32 lg:px-64 bg-stone-800">
     <div class="flex flex-col underline underline-offset-2">
       <RouterLink to="/">Portfolio</RouterLink>
       <RouterLink to="/about">About</RouterLink>
