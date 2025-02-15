@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-wrap">
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
   <Tile label="HELLO DOLLY" source="construct.jpeg" />
   <Tile label="HELLO DOLLY" source="construct.jpeg" />
   <Tile label="HELLO DOLLY" source="construct.jpeg" />

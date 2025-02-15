@@ -5,7 +5,7 @@ import Tile from "@/components/tile.vue";
 <template>
   <section class="flex flex-col">
     <div class="w-full h-24 px-64 py-2 flex items-end">
-      <span class="text-2xl font-extralight">Recent Projects</span>
+      <span class="text-xl font-bold">RECENT PROJECTS</span>
     </div>
     <div class="flex flex-wrap">
     <Tile label="HELLO DOLLY" source="construct.jpeg" />
@@ -16,7 +16,7 @@ import Tile from "@/components/tile.vue";
   </section>
   <section class="flex flex-col">
     <div class="w-full h-24 px-64 py-2 flex items-end justify-end">
-      <span class="text-2xl font-extralight">Recent Projects</span>
+      <span class="text-2xl font-bold">Recent Projects</span>
     </div>
     <div class="flex flex-wrap mb-8">
       <Tile label="HELLO DOLLY" source="construct.jpeg" />
