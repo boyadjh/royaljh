@@ -1,9 +1,22 @@
 <script setup>
+import Header from './components/header.vue'
+import Footer from "@/components/footer.vue";
 
 </script>
 
 <template>
-  <span class="bg-red-500">Test span</span>
-
-<!--  <RouterView />-->
+  <div class="w-full min-h-full flex flex-col">
+    <Header />
+    <RouterView />
+    <Footer />
+  </div>
 </template>
+
+<style scoped>
+.tile-wrapper > img {
+  @apply aspect-square w-1/4 brightness-75 cursor-pointer transition-all;
+  &:hover {
+    @apply brightness-[.65]
+  }
+}
+</style>

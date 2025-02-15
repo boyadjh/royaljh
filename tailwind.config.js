@@ -14,8 +14,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: colors.slate['950'],
-        secondary: colors.slate['100'],
+        dark: colors.stone['900'],
+        light: colors.stone['100']
       },
     },
   },
