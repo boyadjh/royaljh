@@ -8,7 +8,7 @@ import Tile from "@/components/tile.vue";
       <span class="text-xl font-bold">RECENT PROJECTS</span>
     </div>
     <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-    <Tile label="HELLO DOLLY" source="construct.jpeg" />
+    <Tile label="HELLO DOLLY" source="construct.jpeg" link-to="hello-dolly"/>
     <Tile label="HELLO DOLLY" source="construct.jpeg" />
     <Tile class="hidden md:block" label="HELLO DOLLY" source="construct.jpeg" />
     <Tile class="hidden lg:block" label="HELLO DOLLY" source="construct.jpeg" />
