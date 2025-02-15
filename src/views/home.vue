@@ -7,22 +7,22 @@ import Tile from "@/components/tile.vue";
     <div class="w-full h-24 px-64 py-2 flex items-end">
       <span class="text-xl font-bold">RECENT PROJECTS</span>
     </div>
-    <div class="flex flex-wrap">
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
     <Tile label="HELLO DOLLY" source="construct.jpeg" />
     <Tile label="HELLO DOLLY" source="construct.jpeg" />
-    <Tile label="HELLO DOLLY" source="construct.jpeg" />
-      <Tile label="HELLO DOLLY" source="construct.jpeg" />
+    <Tile class="hidden md:block" label="HELLO DOLLY" source="construct.jpeg" />
+    <Tile class="hidden lg:block" label="HELLO DOLLY" source="construct.jpeg" />
     </div>
   </section>
   <section class="flex flex-col">
-    <div class="w-full h-24 px-64 py-2 flex items-end justify-end">
-      <span class="text-2xl font-bold">Recent Projects</span>
+    <div class="w-full h-24 px-64 py-2 flex items-end">
+      <span class="text-xl font-bold">RECENT PROJECTS</span>
     </div>
-    <div class="flex flex-wrap mb-8">
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
       <Tile label="HELLO DOLLY" source="construct.jpeg" />
       <Tile label="HELLO DOLLY" source="construct.jpeg" />
-      <Tile label="HELLO DOLLY" source="construct.jpeg" />
-      <Tile label="HELLO DOLLY" source="construct.jpeg" />
+      <Tile class="hidden md:block" label="HELLO DOLLY" source="construct.jpeg" />
+      <Tile class="hidden lg:block" label="HELLO DOLLY" source="construct.jpeg" />
     </div>
   </section>
 </template>
