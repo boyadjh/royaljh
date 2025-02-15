@@ -42,11 +42,8 @@ function toggle() {
   <div
       class="relative max-w-full h-16 md:h-32 border-b flex justify-between items-center md:items-end px-4 md:px-16 lg:px-32">
     <div class="flex items-center gap-x-4">
-      <img class="h-12 md:h-24 md:mb-4" src="/public/logo2.svg" alt="Royal Hollingshead"/>
+      <img class="h-12 md:h-24 md:mb-4" src="/public/logo.svg" alt="Royal Hollingshead"/>
     </div>
-<!--    <div class="flex items-end gap-x-4">-->
-<!--      <img class="h-24 mb-4" src="/public/logo2.svg" alt="Royal Hollingshead"/>-->
-<!--    </div>-->
     <div class="hidden md:flex items-center gap-x-8 nav pb-4">
       <RouterLink v-for="option of navOptions"
                   v-bind="option"
@@ -75,19 +72,6 @@ function toggle() {
                       :class="isActive(option.path) ? 'underline' : ''"
           >{{option.label}}</RouterLink>
         </div>
-<!--      <Transition>-->
-<!--      <div-->
-<!--          class="md:hidden absolute left-full w-[45vw] h-full bg-white flex flex-col gap-y-4 transition-transform shadow-xl border-l px-4 py-2 "-->
-<!--          :class="drawerOpened ? 'open-drawer' : ''"-->
-<!--      >-->
-<!--        <RouterLink v-for="option of navOptions"-->
-<!--                              v-bind="option"-->
-<!--                              :to="option.path"-->
-<!--                              class="text-2xl select-none"-->
-<!--                              :class="isActive(option.path) ? 'underline' : ''"-->
-<!--                  >{{option.label}}</RouterLink>-->
-<!--      </div>-->
-<!--      </Transition>-->
     </div>
     </Transition>
   </div>
