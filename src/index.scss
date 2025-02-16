@@ -4,12 +4,44 @@
 
 html * {
   font-family: "Montserrat", ui-sans-serif, system-ui, sans-serif;
-  @apply text-sm;
+  @apply text-sm text-light;
+}
+
+html {
+  scrollbar-gutter: stable;
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-black
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent
+}
+
+*::-webkit-scrollbar-corner {
+  display: none;
+}
+
+*::-webkit-scrollbar-button {
+  display: none;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
 }
 
 @media (min-width: 800px) {
   html, body {
-    @apply h-full w-full;
+    @apply w-screen h-full;
+    overflow-x: clip
   }
 }
 

@@ -11,15 +11,11 @@ const drawerOpened = ref(false)
 
 const navOptions = [
   {
-    label: 'Me',
+    label: 'Shows',
     path: '/'
   },
   {
-    label: 'Shows',
-    path: '/shows'
-  },
-  {
-    label: 'About',
+    label: 'About Me',
     path: '/about'
   },
   {
@@ -38,12 +34,10 @@ function toggle() {
 </script>
 
 <template>
-  <div
-      class="h-16 md:h-32 flex justify-between items-center"
-      :class="route.meta['overlayHeader'] ? 'header-overlay' : 'header-normal'"
-  >
-    <div class="flex items-center gap-x-4">
-      <img @click="router.push('/')" class="h-12 md:h-24 md:mb-4 cursor-pointer" src="/logo.svg"
+  <div class="h-16 md:h-32 flex justify-between items-center header-overlay">
+    <div class="flex items-center">
+      <img @click="router.push('/')" class="h-12 md:h-24 md:mb-4 cursor-pointer hover:brightness-10 invert"
+           src="/logo.svg"
            alt="Royal Hollingshead"/>
     </div>
     <div class="hidden md:flex items-center gap-x-8 nav pb-4">
@@ -54,19 +48,19 @@ function toggle() {
                   :class="isActive(option.path) ? 'underline' : ''"
       >{{option.label}}</RouterLink>
     </div>
-    <div class="md:hidden aspect-square w-12">
+    <div class="md:hidden aspect-square w-12 ">
       <DismissIcon v-if="drawerOpened" @click="toggle()"/>
       <MenuIcon v-if="!drawerOpened" @click="toggle()" />
     </div>
 
     <Transition name="drawer">
     <div v-if="drawerOpened"
-         class="absolute top-full left-0 mt-[2px] w-full h-[calc(100vh-4.25rem)] z-40 bg-[#00000040] overflow-hidden"
+         class="absolute top-full left-0 mt-[2px] w-full h-[calc(100vh-4.25rem)] z-40 bg-[#00000090] overflow-hidden"
          @click="toggle()">
 
         <div
-             class="inner md:hidden absolute top-0 left-full w-[45vw] h-[100vh] bg-white z-50 flex flex-col gap-y-4
-             transform transition-transform -translate-x-full shadow-xl border-l px-4 py-2"
+             class="inner md:hidden absolute top-0 left-full w-[45vw] h-[100vh] bg-black z-50 flex flex-col gap-y-4
+             transform transition-transform -translate-x-full shadow-xl px-4 py-2"
         >
           <RouterLink v-for="option of navOptions"
                       v-bind="option"
@@ -82,7 +76,7 @@ function toggle() {
 
 <style scoped>
 .nav > * {
-  @apply text-lg font-semibold text-dark underline-offset-4 uppercase;
+  @apply text-lg font-semibold text-light underline-offset-4 uppercase;
   &:hover {
     @apply underline;
   }
@@ -93,7 +87,7 @@ function toggle() {
 }
 
 .header-overlay {
-  @apply absolute left-0 top-0 right-0 z-50 invert px-4 md:px-8 md:items-start pt-4;
+  @apply absolute left-0 top-0 right-0 z-50 px-4 md:px-8 md:items-start pt-4;
 }
 
 .header-overlay .nav-option {
