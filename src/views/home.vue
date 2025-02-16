@@ -28,7 +28,7 @@ const recentProjects = [
 
 <template>
   <section v-for="i of [0, 1]" v-bind="i" class="flex flex-col">
-    <div class="w-full h-24 px-16 md:px-32 lg:px-64 py-2 flex items-end">
+    <div class="w-full h-auto md:h-20 px-4 md:px-64 lg:px-80 pt-8 pb-1 md:py-2 flex items-end">
       <span class="text-xl font-bold">RECENT PROJECTS</span>
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
