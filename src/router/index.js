@@ -19,22 +19,17 @@ const router = createRouter({
       component: () => import('../views/shows.vue'),
     },
     {
-      path: '/contact',
-      name: 'contact',
-      component: () => import('../views/contact.vue'),
-    },
-    {
-      path: '/shows',
+      path: '/shows/:showName',
       meta: {
         overlayHeader: true
       },
-      children: [
-        {
-          path: 'hello-dolly',
-          name: 'hello-dolly',
-          component: () => import('../views/shows/hello-dolly.vue'),
-        }
-      ]
+      props: true,
+      component: () => import('../views/show.vue'),
+    },
+    {
+      path: '/contact',
+      name: 'contact',
+      component: () => import('../views/contact.vue'),
     }
   ],
 })
