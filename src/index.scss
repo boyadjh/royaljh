@@ -8,7 +8,8 @@ html * {
 }
 
 html, body {
-  @apply h-full w-full;
+  height: 100dvh;
+  width: 100vw;
 }
 
 @media (max-width: 799px) {
