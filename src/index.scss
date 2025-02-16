@@ -10,3 +10,20 @@ html * {
 html, body {
   @apply h-full w-full;
 }
+
+@media (max-width: 799px) {
+
+  html, body {
+    overflow-x: clip;
+    overflow-y: auto;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+  }
+
+}
