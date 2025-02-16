@@ -7,6 +7,12 @@ html * {
   @apply text-sm;
 }
 
+@media (min-width: 800px) {
+  html, body {
+    @apply h-full w-full;
+  }
+}
+
 @media (max-width: 799px) {
 
   html {

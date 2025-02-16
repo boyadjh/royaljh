@@ -51,5 +51,5 @@ export const HELLO_DOLLY = {
     'Stage Manager: Jonah Olsen',
     'Lighting Designer: Colby Avis',
     'Asst. Lighting Designer: Royal Hollingshead'
-  ]
+  ],
 }

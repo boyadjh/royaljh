@@ -1,28 +1,10 @@
 <script setup lang="ts">
 import Tile from "@/components/tile.vue";
+import { SHOWS } from "@/assets/shows.conf";
 
-const recentProjects = [
-  {
-    label: 'the lightning thief',
-    image: 'construct.jpeg',
-    link: 'the-lightning-thief'
-  },
-  {
-    label: 'hello dolly',
-    image: 'show/hello-dolly/thumbnail.jpg',
-    link: 'hello-dolly'
-  },
-  {
-    label: 'snow white and the prince',
-    image: 'construct.jpeg',
-    link: 'snow-white-and-the-prince'
-  },
-  {
-    label: 'the lion king',
-    image: 'construct.jpeg',
-    link: 'the-lion-king'
-  }
-]
+console.log(SHOWS['hello-dolly']);
+
+const recentProjects = Object.keys(SHOWS).slice(0, 4)
 
 </script>
 
@@ -32,8 +14,9 @@ const recentProjects = [
       <span class="text-xl font-bold">RECENT PROJECTS</span>
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
-      <Tile v-for="project of recentProjects" v-bind="project" :label="project.label" :source="project.image"
-            :link-to="project.link" />
+      <Tile v-for="project of recentProjects" :label="SHOWS[project].title"
+            :source="`/show/${project}/thumbnail.jpg`"
+            :link-to="project" />
     </div>
   </section>
 </template>

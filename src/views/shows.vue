@@ -1,8 +1,13 @@
-<template>
-  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 flex-grow-0">
-    <Tile v-for="i in [0,1,2,3,4,5,6,7,8]" label="HELLO DOLLY" source="show/hello-dolly/thumbnail.jpg" link-to="hello-dolly"/>
-  </div>
-</template>
 <script setup lang="ts">
 import Tile from "@/components/tile.vue";
+import { SHOWS } from "@/assets/shows.conf"
+
+const projects = Object.keys(SHOWS)
 </script>
+
+<template>
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 flex-grow-0">
+    <Tile v-for="project of projects" :label="SHOWS[project].title" :source="`show/${project}/thumbnail.jpg`"
+          :link-to="project"/>
+  </div>
+</template>
