@@ -8,7 +8,7 @@
     <div
         class="flex flex-col h-full md:h-auto pt-4 md:pt-0 my-2 md:mt-8 mx-2 md:ml-4 break-words gap-y-2 px-4 items-center md:items-start">
       <span class="text-lg font-semibold mb-2">CONTACT</span>
-      <span class="">royalthepwner@gmail.com</span>
+      <span class="">royal@royaljh.com</span>
       <a href="http://instagram.com/royal.hollingshead" target="_blank" class="flex items-center gap-x-0.5">
         Instagram
         <LinkIcon class="aspect-square h-5"/>

@@ -12,7 +12,7 @@ import LinkIcon from "@/components/link-icon.vue";
     </div>
     <div class="flex flex-col text-right">
       <span>Royal J. Hollingshead</span>
-      <span>royalthepwner@gmail.com</span>
+      <span>royal@royaljh.com</span>
       <a href="https://www.instagram.com/royal.hollingshead/" target="_blank"
          class="flex align-center justify-end gap-x-0.5">Instagram
         <LinkIcon class="aspect-square w-4 inline stroke-neutral-900 fill-none"/></a>
