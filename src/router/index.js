@@ -26,6 +26,10 @@ const router = createRouter({
       props: true,
       component: () => import('../views/show.vue'),
     },
+    {
+      path: '/:pathMatch(.*)*',
+      redirect: '/'
+    }
   ],
 })
 
