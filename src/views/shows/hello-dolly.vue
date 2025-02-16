@@ -6,7 +6,7 @@
   <div class="relative h-[100vh] w-full bg-cover bg-bottom bg-no-repeat" style="background-image:
   url('/show/hello-dolly/hero.jpg');">
     <div class="absolute inset-0 gradient text-light text-opacity-90 flex justify-end">
-          <div class="font-medium text-right mb-3 p-5 mt-24 md:mt-8 w-full">
+          <div class="font-medium text-right mb-3 p-5 mt-16 md:mt-8 w-full">
             <p class="font-bold text-4xl">HELLO DOLLY</p>
             <p class="font-semibold text-xl">Fremont High School</p>
             <p class="text-xs">Director: Ashley Patterson</p>
