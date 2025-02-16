@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-full grid grid-cols-1 md:grid-cols-2 flex-1 items-center mt-16 pt-1 md:mt-4">
+  <div class="w-full h-full grid grid-cols-1 md:grid-cols-2 flex-1 items-center pt-1 md:mt-4">
     <div class="h-[30vh] md:h-full relative overflow-hidden">
       <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('/show/hello-dolly/square_1.jpg');">
         <div class="absolute left-0 top-0 right-0 h-32 gradient"></div>

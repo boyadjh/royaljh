@@ -55,17 +55,18 @@ function toggle() {
 
     <Transition name="drawer">
     <div v-if="drawerOpened"
-         class="absolute top-full left-0 mt-[2px] w-full h-[calc(100vh-4.25rem)] z-40 bg-[#00000090] overflow-hidden"
+         class="absolute top-0 left-0 w-full h-[calc(100vh-4.25rem)] z-40 overflow-hidden"
          @click="toggle()">
 
         <div
-             class="inner md:hidden absolute top-0 left-full w-[45vw] h-[100vh] bg-black z-50 flex flex-col gap-y-4
+             class="inner md:hidden absolute top-0 pt-16 left-full w-[45vw] h-[100vh] z-50 flex flex-col gap-y-4
+             bg-[#00000044]
              transform transition-transform -translate-x-full shadow-xl px-4 py-2"
         >
           <RouterLink v-for="option of navOptions"
                       v-bind="option"
                       :to="option.path"
-                      class="text-3xl select-none"
+                      class="text-3xl select-none text-right"
                       :class="isActive(option.path) ? 'underline' : ''"
           >{{option.label}}</RouterLink>
         </div>
