@@ -17,6 +17,9 @@ module.exports = {
         dark: colors.stone['900'],
         light: colors.stone['100']
       },
+      aspectRatio: {
+        'show-photo': '8 / 6'
+      }
     },
   },
   plugins: [],

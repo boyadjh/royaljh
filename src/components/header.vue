@@ -1,7 +1,7 @@
 <script setup>
 import {useRoute} from "vue-router";
 import MenuIcon from "@/components/menu-icon.vue";
-import {ref, useTemplateRef} from "vue";
+import {onMounted, ref, useTemplateRef} from "vue";
 import DismissIcon from "@/components/dismiss-icon.vue";
 
 const route = useRoute();
@@ -16,8 +16,8 @@ const navOptions = [
     path: '/'
   },
   {
-    label: 'Portfolio',
-    path: '/portfolio'
+    label: 'Shows',
+    path: '/shows'
   },
   {
     label: 'About',
@@ -30,7 +30,7 @@ const navOptions = [
 ]
 
 function isActive(path) {
-  return route.path === path
+  return route.path.split('/')[1] === path.replace('/', '')
 }
 
 function toggle() {
@@ -40,7 +40,9 @@ function toggle() {
 
 <template>
   <div
-      class="relative max-w-full h-16 md:h-32 border-b flex justify-between items-center md:items-end px-4 md:px-16 lg:px-32">
+      class="h-16 md:h-32 flex justify-between items-center"
+      :class="route.meta['overlayHeader'] ? 'header-overlay' : 'header-normal'"
+  >
     <div class="flex items-center gap-x-4">
       <img class="h-12 md:h-24 md:mb-4" src="/public/logo.svg" alt="Royal Hollingshead"/>
     </div>
@@ -48,6 +50,7 @@ function toggle() {
       <RouterLink v-for="option of navOptions"
                   v-bind="option"
                   :to="option.path"
+                  class="nav-option"
                   :class="isActive(option.path) ? 'underline' : ''"
       >{{option.label}}</RouterLink>
     </div>
@@ -82,6 +85,21 @@ function toggle() {
   @apply text-lg font-semibold text-dark underline-offset-4 uppercase;
   &:hover {
     @apply underline;
+  }
+}
+
+.header-normal {
+  @apply relative border-b shadow max-w-full px-4 md:px-16 lg:px-32 md:items-end;
+}
+
+.header-overlay {
+  @apply absolute left-0 top-0 right-0 z-50 invert px-4 md:px-8 md:items-start pt-4;
+}
+
+.header-overlay .nav-option {
+  @apply text-opacity-60;
+  &:hover {
+    @apply text-opacity-100
   }
 }
 

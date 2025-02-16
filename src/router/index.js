@@ -14,9 +14,9 @@ const router = createRouter({
       component: () => import('../views/about.vue'),
     },
     {
-      path: '/portfolio',
-      name: 'portfolio',
-      component: () => import('../views/portfolio.vue'),
+      path: '/shows',
+      name: 'shows',
+      component: () => import('../views/shows.vue'),
     },
     {
       path: '/contact',
@@ -25,6 +25,9 @@ const router = createRouter({
     },
     {
       path: '/shows',
+      meta: {
+        overlayHeader: true
+      },
       children: [
         {
           path: 'hello-dolly',

@@ -7,7 +7,7 @@ const props = defineProps(['source', 'label', 'linkTo']);
 const router = useRouter()
 
 function navigate() {
-  router.push(props.linkTo)
+  router.push({name: props.linkTo})
 }
 </script>
 
