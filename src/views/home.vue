@@ -32,7 +32,7 @@ const recentProjects = [
       <span class="text-xl font-bold">RECENT PROJECTS</span>
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
-      <Tile v-for="(project, index) of recentProjects" v-bind="project" :label="project.label" :source="project.image"
+      <Tile v-for="project of recentProjects" v-bind="project" :label="project.label" :source="project.image"
             :link-to="project.link" />
     </div>
   </section>

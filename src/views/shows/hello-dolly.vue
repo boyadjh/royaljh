@@ -1,34 +1,10 @@
 <script setup>
-import Lorem from "@/components/lorem.vue";
-
-const images = [
-  {
-    path: 'dolly_1',
-    alt: 'dolly_1',
-    summary: 'Dolly comes forward during "Hello Dolly" ',
-  },
-  {
-    path: 'dolly_2',
-    alt: 'dolly_2',
-    summary: 'Miss Money',
-  },
-  {
-    path: 'dolly_3',
-    alt: 'dolly_3',
-    summary: 'Curtain Call',
-  },
-  {
-    path: 'dolly_4',
-    alt: 'dolly_4',
-    summary: 'It takes a Woman',
-  },
-]
 </script>
 
 
 <template>
   <div class="relative h-[100vh] w-full bg-cover bg-bottom bg-no-repeat" style="background-image:
-  url('/show/hello-dolly/dolly_1_crop_1.jpg');">
+  url('/show/hello-dolly/hero.jpg');">
     <div class="absolute inset-0 gradient text-light text-opacity-90 flex justify-end">
           <div class="font-medium text-right mb-3 p-5 mt-8 w-3/4 md:w-full">
             <p class="font-bold text-4xl">HELLO DOLLY</p>

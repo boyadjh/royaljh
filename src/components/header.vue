@@ -1,12 +1,11 @@
 <script setup>
-import {useRoute} from "vue-router";
+import {useRoute, useRouter} from "vue-router";
 import MenuIcon from "@/components/menu-icon.vue";
 import {onMounted, ref, useTemplateRef} from "vue";
 import DismissIcon from "@/components/dismiss-icon.vue";
 
 const route = useRoute();
-
-const drawer = useTemplateRef('drawer')
+const router = useRouter();
 
 const drawerOpened = ref(false)
 
@@ -44,7 +43,8 @@ function toggle() {
       :class="route.meta['overlayHeader'] ? 'header-overlay' : 'header-normal'"
   >
     <div class="flex items-center gap-x-4">
-      <img class="h-12 md:h-24 md:mb-4" src="/public/logo.svg" alt="Royal Hollingshead"/>
+      <img @click="router.push('/')" class="h-12 md:h-24 md:mb-4 cursor-pointer" src="/logo.svg"
+           alt="Royal Hollingshead"/>
     </div>
     <div class="hidden md:flex items-center gap-x-8 nav pb-4">
       <RouterLink v-for="option of navOptions"
