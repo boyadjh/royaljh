@@ -46,7 +46,7 @@ export const HELLO_DOLLY = {
   credits: [
     'Director: Ashley Patterson',
     'Asst. Director: Aubrey Obray',
-    'Stage Manager: Jonah Olsen',
+    'Stage Manager: Jonah Olson',
     'Lighting Designer: Colby Avis',
     'Asst. Lighting Designer: Royal Hollingshead'
   ],
