@@ -12,9 +12,7 @@ export const HELLO_DOLLY = {
       type: 'blog',
       hideSmall: true,
       header: 'November 2024',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec metus arcu, posuere nec ante et,' +
-        ' pretium' +
-        ' laoreet sapien. Nullam at quam nec libero egestas sagittis tristique sit amet lorem. Integer facilisis laoreet felis. Curabitur quis'
+      description: 'This was such a fun show to work on! It was my 2nd musical, it was a lot bigger than my first. It taught me a lot about manging my time, and getting things done early.'
     },
     {
       file: 'vert_2.jpg',

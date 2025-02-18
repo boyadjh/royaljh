@@ -6,9 +6,8 @@
       </div>
     </div>
     <div class="flex flex-col my-2 md:mt-8 mx-2 md:ml-4 break-words gap-y-8 px-4">
-      <span class="text-3xl">Header Here</span>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut justo vel lectus euismod venenatis sed sed sapien. Fusce viverra dolor fermentum, molestie eros ut, bibendum velit. Nulla tempor neque quis venenatis tristique. Donec a fermentum nisl. Maecenas sed consectetur tellus. Duis maximus urna ac nibh consequat, pulvinar cursus felis condimentum. Donec vulputate placerat euismod. Suspendisse elit erat, tempus in libero nec, vehicula lacinia orci. Phasellus sed mi bibendum, dignissim tellus vel, sagittis magna.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut justo vel lectus euismod venenatis sed sed sapien. Fusce viverra dolor fermentum, molestie eros ut, bibendum velit. Nulla tempor neque quis venenatis tristique. Donec a fermentum nisl. Maecenas sed consectetur tellus. Duis maximus urna ac nibh consequat, pulvinar cursus felis condimentum. Donec vulputate placerat euismod. Suspendisse elit erat, tempus in libero nec, vehicula lacinia orci. Phasellus sed mi bibendum, dignissim tellus vel, sagittis magna.</p>
+      <span class="text-3xl font-semibold">Royal Hollingshead</span>
+      <p>I am currently taking technical theater classes at Fremont High School. That's where I have found my passion for live production. I believe that live events are so much better than just sitting and watching a movie. It's so much more immersive, and you can't experience live talent anywhere else </p>
     </div>
   </div>
 </template>
