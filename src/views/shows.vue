@@ -13,11 +13,5 @@ const projects = Object.keys(SHOWS)
           :link-to="project"/>
     <Tile v-for="project of projects" :label="SHOWS[project].title" :source="`show/${project}/thumbnail.jpg`"
           :link-to="project"/>
-    <Tile v-for="project of projects" :label="SHOWS[project].title" :source="`show/${project}/thumbnail.jpg`"
-          :link-to="project"/>
-    <Tile v-for="project of projects" :label="SHOWS[project].title" :source="`show/${project}/thumbnail.jpg`"
-          :link-to="project"/>
-    <Tile v-for="project of projects" :label="SHOWS[project].title" :source="`show/${project}/thumbnail.jpg`"
-          :link-to="project"/>
   </div>
 </template>
