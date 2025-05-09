@@ -23,7 +23,7 @@ const classes = (tile) => {
     </div>
   </div>
 
-  <div class="w-full grid grid-cols-2 lg:grid-cols-4 gap-0.5 grid-rows-2 lg:grid-rows-4 grid-flow-row-dense bg-black">
+  <div class="w-full grid grid-cols-2 lg:grid-cols-4 gap-0.5 grid-rows-2 lg:grid-rows-2 grid-flow-row-dense bg-black">
     <div v-for="tile in show.tiles" :key="tile.id" :class="classes(tile)">
       <img v-if="tile.type !== 'blog'"
            class="w-full h-full"
