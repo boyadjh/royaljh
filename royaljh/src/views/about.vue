@@ -7,7 +7,7 @@
     </div>
     <div class="flex flex-col my-2 md:mt-8 mx-2 md:ml-4 break-words gap-y-8 px-4">
       <span class="text-3xl font-semibold">Royal Hollingshead</span>
-      <p>I am currently taking technical theater classes at Fremont High School. That's where I have found my passion for live production. I believe that live events are so much better than just sitting and watching a movie. It's so much more immersive, and you can't experience live talent anywhere else </p>
+      <p>I am currently graduated from Fremont High School. That's where I have found my passion for live production. I believe that live events are so much better than just sitting and watching a movie. </p>
     </div>
   </div>
 </template>

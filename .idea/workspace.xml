@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="196638ef-0a1a-4613-a750-4cc2c1a83587" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/construct.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/contact.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/show/elephants-graveyard/hero.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/show/elephants-graveyard/hori_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/show/elephants-graveyard/hori_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/show/elephants-graveyard/hori_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/show/elephants-graveyard/hori_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/show/elephants-graveyard/square_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/show/elephants-graveyard/square_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/show/elephants-graveyard/square_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/show/elephants-graveyard/thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/show/elephants-graveyard/vert_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/show/elephants-graveyard/vert_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/show/elephants-graveyard/vert_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/show/elephants-graveyard/vert_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/show/hello-dolly/hero.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/show/hello-dolly/hori_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/show/hello-dolly/hori_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/show/hello-dolly/hori_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/show/hello-dolly/hori_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/show/hello-dolly/square_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/show/hello-dolly/thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/show/hello-dolly/vert_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/show/hello-dolly/vert_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/show/hello-dolly/vert_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/show/hello-dolly/vert_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/show/hello-dolly/vert_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/show/snow-white-and-the-prince/hero.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/show/snow-white-and-the-prince/hori_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/show/snow-white-and-the-prince/hori_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/show/snow-white-and-the-prince/hori_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/show/snow-white-and-the-prince/hori_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/show/snow-white-and-the-prince/square_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/show/snow-white-and-the-prince/square_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/show/snow-white-and-the-prince/square_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/show/snow-white-and-the-prince/thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/show/snow-white-and-the-prince/vert_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/show/snow-white-and-the-prince/vert_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/source4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/construct.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/elephants_graveyard.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/hello-dolly.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/shows.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/snow-white-and-the-prince.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dismiss-icon.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/link-icon.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/lorem.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/menu-icon.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/tile.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/about.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/contact.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/show.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/shows.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Royalthepwnr"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/boyadjh/royaljh.git",
+    "accountId": "8cbd6f66-7e85-47a1-a3b1-4ab617ed6a24"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2ziDhCh2xrYR4akmZpteReHeFTl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Node.js.shows.conf.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_interpreter_path": "C:/Users/User/AppData/Roaming/JetBrains/WebStorm2025.1/node/versions/22.17.0/node",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-WS-251.26927.40" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="196638ef-0a1a-4613-a750-4cc2c1a83587" name="Changes" comment="" />
+      <created>1752205119237</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1752205119237</updated>
+      <workItem from="1752205122401" duration="240000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
